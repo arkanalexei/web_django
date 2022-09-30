@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(1, 1, 32)!important;
+}
+
+ul{
+    list-style-type: square;
+}
+
+#profile-wrapper{
+    text-align: center;
+    object-fit: cover;
+}
+
+#self-photo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+
+.social-links{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.social-links li{
+    display: inline-block;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}

@@ -4,7 +4,7 @@ from personal.views import show_personal, tailwind
 app_name = 'personal'
 
 urlpatterns = [
-    path('', show_personal, name='show_personal'),
-    path('tailwind', tailwind, name='tailwind'),
+    path('old', show_personal, name='show_personal'),
+    path('', tailwind, name='tailwind'),
 
 ]
